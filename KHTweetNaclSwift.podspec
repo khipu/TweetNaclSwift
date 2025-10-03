@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'TweetNaclSwift'
+  s.name             = 'KHTweetNaclSwift'
   s.version          = '1.0.0'
   s.summary          = 'Swift wrapper for TweetNaCl cryptographic library.'
   s.description      = <<-DESC
@@ -15,7 +15,7 @@ TweetNaclSwift provides a Swift interface to the TweetNaCl cryptographic library
 It wraps the C implementation with a clean Swift API for iOS applications.
                        DESC
 
-  s.homepage         = 'https://github.com/github/TweetNaclSwift'
+  s.homepage         = 'https://github.com/khipu/TweetNaclSwift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Khipu' => 'developers@khipu.com' }
   s.source           = { :git => 'https://github.com/khipu/TweetNaclSwift.git', :tag => s.version.to_s }

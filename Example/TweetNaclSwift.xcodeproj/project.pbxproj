@@ -35,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F57F3DF8B9FFAD0BFF276A2 /* TweetNaclSwiftTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweetNaclSwiftTests.swift; path = Tests/TweetNaclSwiftTests.swift; sourceTree = "<group>"; };
 		45D37CABBBA6AF485893EFE8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		49BF9D4EDAAFA5257BA338A7 /* Pods-TweetNaclSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetNaclSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TweetNaclSwift_Tests/Pods-TweetNaclSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A51FA262E909035009B9C72 /* BoxTestData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BoxTestData.json; sourceTree = "<group>"; };
@@ -47,7 +46,6 @@
 		4A51FA302E9090FE009B9C72 /* NaclSecretbox_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaclSecretbox_Tests.swift; sourceTree = "<group>"; };
 		4A51FA312E9090FE009B9C72 /* NaclSign_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaclSign_Tests.swift; sourceTree = "<group>"; };
 		5B9F4E2C5D7A0AB7B8EC787C /* Pods-TweetNaclSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetNaclSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-TweetNaclSwift_Example/Pods-TweetNaclSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5F4349CA516A08490911902B /* SimpleTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleTests.swift; path = Tests/SimpleTests.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TweetNaclSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetNaclSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,15 +83,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E72890F58DBA0880ECC4E11 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				1F57F3DF8B9FFAD0BFF276A2 /* TweetNaclSwiftTests.swift */,
-				5F4349CA516A08490911902B /* SimpleTests.swift */,
-			);
-			name = Tests;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +92,6 @@
 				607FACD11AFB9204008FA782 /* Products */,
 				D223BB520BDD7D7648288B76 /* Pods */,
 				A21B6F52C0BCEB4D09DB5399 /* Frameworks */,
-				F55AA522365F4C38DF95E6BF /* TweetNaclSwift_Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,14 +178,6 @@
 				7E5AC3EB16BF17B34D50711A /* Pods-TweetNaclSwift_Tests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		F55AA522365F4C38DF95E6BF /* TweetNaclSwift_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5E72890F58DBA0880ECC4E11 /* Tests */,
-			);
-			name = TweetNaclSwift_Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,11 +316,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TweetNaclSwift_Example/Pods-TweetNaclSwift_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TweetNaclSwift/TweetNaclSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KHTweetNaclSwift/KHTweetNaclSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TweetNaclSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KHTweetNaclSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

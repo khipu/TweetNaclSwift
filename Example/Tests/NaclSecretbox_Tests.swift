@@ -9,7 +9,7 @@
 import Foundation
 
 import XCTest
-@testable import TweetNaclSwift
+@testable import KHTweetNaclSwift
 
 class NaclSecretbox_Tests: XCTestCase {
     

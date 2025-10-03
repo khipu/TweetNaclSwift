@@ -1,19 +1,19 @@
 {
-  "name": "TweetNaclSwift",
-  "version": "0.1.0",
+  "name": "KHTweetNaclSwift",
+  "version": "1.0.0",
   "summary": "Swift wrapper for TweetNaCl cryptographic library.",
   "description": "TweetNaclSwift provides a Swift interface to the TweetNaCl cryptographic library.\nIt wraps the C implementation with a clean Swift API for iOS applications.",
-  "homepage": "https://github.com/github/TweetNaclSwift",
+  "homepage": "https://github.com/khipu/TweetNaclSwift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Emilio Davis": "emilio.davis@khipu.com"
+    "Khipu": "developers@khipu.com"
   },
   "source": {
     "git": "https://github.com/khipu/TweetNaclSwift.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "12.0"

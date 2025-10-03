@@ -1,16 +1,16 @@
 PODS:
-  - TweetNaclSwift (0.1.0)
+  - KHTweetNaclSwift (1.0.0)
 
 DEPENDENCIES:
-  - TweetNaclSwift (from `../`)
+  - KHTweetNaclSwift (from `../`)
 
 EXTERNAL SOURCES:
-  TweetNaclSwift:
+  KHTweetNaclSwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TweetNaclSwift: 8075d124cfad56e4962d64b3fddde0bc57986ebc
+  KHTweetNaclSwift: a1f2ef5cd871cd7fb96279406fd106cdd42efc07
 
-PODFILE CHECKSUM: 550a0240799b4076e31f387f2ec3344814f22f21
+PODFILE CHECKSUM: 511b4639a685964cedb0f8851618eda85d427b11
 
 COCOAPODS: 1.15.2

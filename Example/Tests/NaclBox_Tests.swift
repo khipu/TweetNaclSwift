@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import TweetNaclSwift
+@testable import KHTweetNaclSwift
 
 class NaclBox_Test: XCTestCase {
     

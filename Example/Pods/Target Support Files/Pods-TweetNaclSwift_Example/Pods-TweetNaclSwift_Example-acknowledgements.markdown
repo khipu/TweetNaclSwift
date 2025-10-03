@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## TweetNaclSwift
+## KHTweetNaclSwift
 
 Copyright (c) 2025 Emilio Davis <emilio.davis@khipu.com>
 

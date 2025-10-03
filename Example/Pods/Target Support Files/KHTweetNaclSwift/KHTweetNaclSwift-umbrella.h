@@ -12,6 +12,6 @@
 
 #import "TweetNaclWrapper.h"
 
-FOUNDATION_EXPORT double TweetNaclSwiftVersionNumber;
-FOUNDATION_EXPORT const unsigned char TweetNaclSwiftVersionString[];
+FOUNDATION_EXPORT double KHTweetNaclSwiftVersionNumber;
+FOUNDATION_EXPORT const unsigned char KHTweetNaclSwiftVersionString[];
 

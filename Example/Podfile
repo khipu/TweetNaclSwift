@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '12.0'
 
 target 'TweetNaclSwift_Example' do
-  pod 'TweetNaclSwift', :path => '../'
+  pod 'KHTweetNaclSwift', :path => '../'
 
   target 'TweetNaclSwift_Tests' do
     inherit! :search_paths
