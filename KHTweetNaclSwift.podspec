@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KHTweetNaclSwift'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Swift wrapper for TweetNaCl cryptographic library.'
   s.description      = <<-DESC
 TweetNaclSwift provides a Swift interface to the TweetNaCl cryptographic library.
