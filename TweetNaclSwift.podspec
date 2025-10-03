@@ -17,7 +17,7 @@ It wraps the C implementation with a clean Swift API for iOS applications.
 
   s.homepage         = 'https://github.com/github/TweetNaclSwift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Emilio Davis' => 'emilio.davis@khipu.com' }
+  s.author           = { 'Khipu' => 'developers@khipu.com' }
   s.source           = { :git => 'https://github.com/khipu/TweetNaclSwift.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12.0'
