@@ -1,0 +1,16 @@
+PODS:
+  - TweetNaclSwift (0.1.0)
+
+DEPENDENCIES:
+  - TweetNaclSwift (from `../`)
+
+EXTERNAL SOURCES:
+  TweetNaclSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TweetNaclSwift: 8075d124cfad56e4962d64b3fddde0bc57986ebc
+
+PODFILE CHECKSUM: 550a0240799b4076e31f387f2ec3344814f22f21
+
+COCOAPODS: 1.15.2

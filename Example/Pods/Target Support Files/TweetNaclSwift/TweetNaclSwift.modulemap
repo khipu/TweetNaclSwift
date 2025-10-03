@@ -1,0 +1,6 @@
+framework module TweetNaclSwift {
+  umbrella header "TweetNaclSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3D8572CE3161DF89CE6153B8 /* Pods_TweetNaclSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61E320DD302B1F97F7BC4FE /* Pods_TweetNaclSwift_Example.framework */; };
+		4A51FA2A2E909035009B9C72 /* ScalarMultiTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A51FA272E909035009B9C72 /* ScalarMultiTestData.json */; };
+		4A51FA2B2E909035009B9C72 /* SecretboxTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A51FA282E909035009B9C72 /* SecretboxTestData.json */; };
+		4A51FA2C2E909035009B9C72 /* SignTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A51FA292E909035009B9C72 /* SignTestData.json */; };
+		4A51FA2D2E909035009B9C72 /* BoxTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A51FA262E909035009B9C72 /* BoxTestData.json */; };
+		4A51FA322E9090FE009B9C72 /* NaclBox_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51FA2E2E9090FE009B9C72 /* NaclBox_Tests.swift */; };
+		4A51FA332E9090FE009B9C72 /* NaclSecretbox_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51FA302E9090FE009B9C72 /* NaclSecretbox_Tests.swift */; };
+		4A51FA342E9090FE009B9C72 /* NaclScalarMulti_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51FA2F2E9090FE009B9C72 /* NaclScalarMulti_Tests.swift */; };
+		4A51FA352E9090FE009B9C72 /* NaclSign_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51FA312E9090FE009B9C72 /* NaclSign_Tests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		CAB2EB04D612C118614948AD /* Pods_TweetNaclSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF840F47B301505A51ED15B3 /* Pods_TweetNaclSwift_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,9 +35,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		45D37CABBBA6AF485893EFE8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1F57F3DF8B9FFAD0BFF276A2 /* TweetNaclSwiftTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweetNaclSwiftTests.swift; path = Tests/TweetNaclSwiftTests.swift; sourceTree = "<group>"; };
+		45D37CABBBA6AF485893EFE8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		49BF9D4EDAAFA5257BA338A7 /* Pods-TweetNaclSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetNaclSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TweetNaclSwift_Tests/Pods-TweetNaclSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A51FA262E909035009B9C72 /* BoxTestData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BoxTestData.json; sourceTree = "<group>"; };
+		4A51FA272E909035009B9C72 /* ScalarMultiTestData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ScalarMultiTestData.json; sourceTree = "<group>"; };
+		4A51FA282E909035009B9C72 /* SecretboxTestData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SecretboxTestData.json; sourceTree = "<group>"; };
+		4A51FA292E909035009B9C72 /* SignTestData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SignTestData.json; sourceTree = "<group>"; };
+		4A51FA2E2E9090FE009B9C72 /* NaclBox_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaclBox_Tests.swift; sourceTree = "<group>"; };
+		4A51FA2F2E9090FE009B9C72 /* NaclScalarMulti_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaclScalarMulti_Tests.swift; sourceTree = "<group>"; };
+		4A51FA302E9090FE009B9C72 /* NaclSecretbox_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaclSecretbox_Tests.swift; sourceTree = "<group>"; };
+		4A51FA312E9090FE009B9C72 /* NaclSign_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaclSign_Tests.swift; sourceTree = "<group>"; };
 		5B9F4E2C5D7A0AB7B8EC787C /* Pods-TweetNaclSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetNaclSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-TweetNaclSwift_Example/Pods-TweetNaclSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5F4349CA516A08490911902B /* SimpleTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleTests.swift; path = Tests/SimpleTests.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TweetNaclSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetNaclSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,11 +57,10 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* TweetNaclSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweetNaclSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		755248E22B0A233DC8718AB8 /* TweetNaclSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TweetNaclSwift.podspec; path = ../TweetNaclSwift.podspec; sourceTree = "<group>"; };
+		755248E22B0A233DC8718AB8 /* TweetNaclSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TweetNaclSwift.podspec; path = ../TweetNaclSwift.podspec; sourceTree = "<group>"; };
 		7E5AC3EB16BF17B34D50711A /* Pods-TweetNaclSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetNaclSwift_Tests.release.xcconfig"; path = "Target Support Files/Pods-TweetNaclSwift_Tests/Pods-TweetNaclSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9A15952FDA4DA1715672AA59 /* Pods-TweetNaclSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetNaclSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-TweetNaclSwift_Example/Pods-TweetNaclSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C5417CD9B8C94173701B8C19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C5417CD9B8C94173701B8C19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C61E320DD302B1F97F7BC4FE /* Pods_TweetNaclSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TweetNaclSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF840F47B301505A51ED15B3 /* Pods_TweetNaclSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TweetNaclSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E72890F58DBA0880ECC4E11 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F57F3DF8B9FFAD0BFF276A2 /* TweetNaclSwiftTests.swift */,
+				5F4349CA516A08490911902B /* SimpleTests.swift */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +103,7 @@
 				607FACD11AFB9204008FA782 /* Products */,
 				D223BB520BDD7D7648288B76 /* Pods */,
 				A21B6F52C0BCEB4D09DB5399 /* Frameworks */,
+				F55AA522365F4C38DF95E6BF /* TweetNaclSwift_Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,7 +141,14 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				4A51FA2E2E9090FE009B9C72 /* NaclBox_Tests.swift */,
+				4A51FA2F2E9090FE009B9C72 /* NaclScalarMulti_Tests.swift */,
+				4A51FA302E9090FE009B9C72 /* NaclSecretbox_Tests.swift */,
+				4A51FA312E9090FE009B9C72 /* NaclSign_Tests.swift */,
+				4A51FA262E909035009B9C72 /* BoxTestData.json */,
+				4A51FA272E909035009B9C72 /* ScalarMultiTestData.json */,
+				4A51FA282E909035009B9C72 /* SecretboxTestData.json */,
+				4A51FA292E909035009B9C72 /* SignTestData.json */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -156,8 +189,15 @@
 				49BF9D4EDAAFA5257BA338A7 /* Pods-TweetNaclSwift_Tests.debug.xcconfig */,
 				7E5AC3EB16BF17B34D50711A /* Pods-TweetNaclSwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F55AA522365F4C38DF95E6BF /* TweetNaclSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5E72890F58DBA0880ECC4E11 /* Tests */,
+			);
+			name = TweetNaclSwift_Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +230,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				FDFB3027DB73EC5AB9DC0265 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -257,6 +297,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A51FA2A2E909035009B9C72 /* ScalarMultiTestData.json in Resources */,
+				4A51FA2B2E909035009B9C72 /* SecretboxTestData.json in Resources */,
+				4A51FA2C2E909035009B9C72 /* SignTestData.json in Resources */,
+				4A51FA2D2E909035009B9C72 /* BoxTestData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,31 +369,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FDFB3027DB73EC5AB9DC0265 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TweetNaclSwift_Tests/Pods-TweetNaclSwift_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TweetNaclSwift_Tests/Pods-TweetNaclSwift_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -366,7 +385,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				4A51FA322E9090FE009B9C72 /* NaclBox_Tests.swift in Sources */,
+				4A51FA332E9090FE009B9C72 /* NaclSecretbox_Tests.swift in Sources */,
+				4A51FA342E9090FE009B9C72 /* NaclScalarMulti_Tests.swift in Sources */,
+				4A51FA352E9090FE009B9C72 /* NaclSign_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TweetNaclSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -520,6 +543,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TweetNaclSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -542,6 +566,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,6 +585,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

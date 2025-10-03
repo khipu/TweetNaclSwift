@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C5148B44D0384258BAAE19F7756DDDC /* Pods-TweetNaclSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F535D2E31B601C9A885D7A57697F065B /* Pods-TweetNaclSwift_Tests-dummy.m */; };
+		0EA7692800079E03048771534F5F5D95 /* Pods-TweetNaclSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A690F18B46B0C17BA661EB7C4DA492A /* Pods-TweetNaclSwift_Example-dummy.m */; };
+		3C0630FFE2EF699C23B8AA7E0DF77E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5261430C97039DC8386CB2D814324EFF /* ctweetnacl.h in Headers */ = {isa = PBXBuildFile; fileRef = 855C9D6287EC4BD596F946E107D3E518 /* ctweetnacl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53C920B624FD360D0BEC0D68528C2D60 /* ctweetnacl.c in Sources */ = {isa = PBXBuildFile; fileRef = 34F8BD266F218CB4F471C75E7B6EC90F /* ctweetnacl.c */; };
+		66682AD1ED71BFB5180DC89171C54B5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7AFE34DB829F4FC6E0F6DC4F07CDD890 /* TweetNaclSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F681786B4A4A8608F13B5A9DA82155C4 /* TweetNaclSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4FE8F16FDAE4821E9BD6DEA57546441 /* Pods-TweetNaclSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 771C48E75534A37B0A18F381204D19CD /* Pods-TweetNaclSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE8CDF59ECD0744BE8A3EE45B61DB870 /* TweetNaclSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D113FFB4779CB7CDBCDD9C606A3CB0 /* TweetNaclSwift-dummy.m */; };
+		D05199C16F13922050DCE70D6A39C228 /* Pods-TweetNaclSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C439149A08678B4E8DDD1873E031B7 /* Pods-TweetNaclSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6B6EC6493AEC60A43DFC4C670440041 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CED9FEE5F71F3EBDE47DD749A8D0BE /* Constants.swift */; };
+		D8C41AC0BF16FF471A54C4FAB338842D /* TweetNaclSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7937BB2F063A61879542E9AB47D59B9 /* TweetNaclSwift.swift */; };
+		F00B8F3A7EEEF0C40D96E534D1007E09 /* TweetNaclWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CFD10263F880CDEA1FDCBF7B2E04F29 /* TweetNaclWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F10729B6C212FD61D421D6B47AE5A788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FD656432E8E2DBFF8B44E11F0FDDD8F4 /* TweetNaclWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B15EECC5BC986D23E7B9A7F454F81039 /* TweetNaclWrapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ECE40C8A3ED4EE6D4F3CA93CE3E3A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0E68FD195607D8AB4FEEE4BE56388B;
+			remoteInfo = "Pods-TweetNaclSwift_Example";
+		};
+		825698C43535ADC5914A4B38CFC2FE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F94B1D2C304DEB17C05D05923B208E4;
+			remoteInfo = TweetNaclSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06EFC33B367BF5FBF34A2E78494E8A82 /* Pods-TweetNaclSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweetNaclSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		0BC12703BA5E1822B2101F782D72261F /* Pods-TweetNaclSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweetNaclSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CFD10263F880CDEA1FDCBF7B2E04F29 /* TweetNaclWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TweetNaclWrapper.h; path = TweetNaclSwift/Classes/TweetNaclWrapper.h; sourceTree = "<group>"; };
+		18D113FFB4779CB7CDBCDD9C606A3CB0 /* TweetNaclSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TweetNaclSwift-dummy.m"; sourceTree = "<group>"; };
+		26CED9FEE5F71F3EBDE47DD749A8D0BE /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = TweetNaclSwift/Classes/Constants.swift; sourceTree = "<group>"; };
+		282E967FDED7C6E3652132673C2324A5 /* Pods-TweetNaclSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TweetNaclSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		34F8BD266F218CB4F471C75E7B6EC90F /* ctweetnacl.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ctweetnacl.c; sourceTree = "<group>"; };
+		36615F414AF726F6F831CC5A0E2BA6A9 /* Pods-TweetNaclSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweetNaclSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		36B604DB3D5439967BCCD33136E9B0F4 /* Pods-TweetNaclSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TweetNaclSwift_Tests"; path = Pods_TweetNaclSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4687E6ACB4D1B955D29B225683BBFA44 /* TweetNaclSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TweetNaclSwift.modulemap; sourceTree = "<group>"; };
+		4B335B915FA474307DCEBDCB2FD017D3 /* Pods-TweetNaclSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TweetNaclSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		59167F79EA0C0F5C7C293DABB83272EE /* TweetNaclSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TweetNaclSwift.debug.xcconfig; sourceTree = "<group>"; };
+		5A690F18B46B0C17BA661EB7C4DA492A /* Pods-TweetNaclSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TweetNaclSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		5D47C482B0D0804F057DE30D27692E73 /* TweetNaclSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TweetNaclSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F8BBBBDC41FCFF385CCDB1F2E0D9BD5 /* Pods-TweetNaclSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetNaclSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B0B0EB223D1AB38751C9ECC8BC18A6A /* TweetNaclSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TweetNaclSwift.release.xcconfig; sourceTree = "<group>"; };
+		72A6ADB63C4CE766A2816A6428EF18E1 /* TweetNaclSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TweetNaclSwift-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		771C48E75534A37B0A18F381204D19CD /* Pods-TweetNaclSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TweetNaclSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		84196077065E6589F849B2EB2D7C120E /* Pods-TweetNaclSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TweetNaclSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		855C9D6287EC4BD596F946E107D3E518 /* ctweetnacl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ctweetnacl.h; sourceTree = "<group>"; };
+		8726168E293675193C1D3C2FBD7733AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9ABB0FC7272981326C0BA503E76F3DC1 /* Pods-TweetNaclSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TweetNaclSwift_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0F1AEC7DE452C9995D68439B378425A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AEAF633C610D53379024902EF48D9676 /* Pods-TweetNaclSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetNaclSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B15EECC5BC986D23E7B9A7F454F81039 /* TweetNaclWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TweetNaclWrapper.m; path = TweetNaclSwift/Classes/TweetNaclWrapper.m; sourceTree = "<group>"; };
+		B3C6C7E7D211E0340D667CD6AAC8E531 /* TweetNaclSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TweetNaclSwift; path = TweetNaclSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B917BD2D35B69128F009293AEAC38D1E /* Pods-TweetNaclSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetNaclSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BB3AE9EDBAC7F6A63EC58C52CB163AA7 /* TweetNaclSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TweetNaclSwift-Info.plist"; sourceTree = "<group>"; };
+		BB7ACA82F1C61375392DF64903AA4D12 /* Pods-TweetNaclSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweetNaclSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		C7937BB2F063A61879542E9AB47D59B9 /* TweetNaclSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweetNaclSwift.swift; path = TweetNaclSwift/Classes/TweetNaclSwift.swift; sourceTree = "<group>"; };
+		CB82595CFC6472707CB259AB6308F9F2 /* Pods-TweetNaclSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TweetNaclSwift_Example"; path = Pods_TweetNaclSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C439149A08678B4E8DDD1873E031B7 /* Pods-TweetNaclSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TweetNaclSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F535D2E31B601C9A885D7A57697F065B /* Pods-TweetNaclSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TweetNaclSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		F681786B4A4A8608F13B5A9DA82155C4 /* TweetNaclSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TweetNaclSwift-umbrella.h"; sourceTree = "<group>"; };
+		FD4C29AE759751A112273F1F83B2021A /* Pods-TweetNaclSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweetNaclSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FD5E996513FCDB17BAA7CF253330FBB6 /* Pods-TweetNaclSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TweetNaclSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		345A78446211F716628225AED234B151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0630FFE2EF699C23B8AA7E0DF77E39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A58390278E6166B8C1F2155E2DF8CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10729B6C212FD61D421D6B47AE5A788 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F915B27787319A3BDA746F29DD5B28EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66682AD1ED71BFB5180DC89171C54B5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B0F94F667BB42D60A54DCDB909C761 /* Pods-TweetNaclSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84196077065E6589F849B2EB2D7C120E /* Pods-TweetNaclSwift_Tests.modulemap */,
+				FD5E996513FCDB17BAA7CF253330FBB6 /* Pods-TweetNaclSwift_Tests-acknowledgements.markdown */,
+				36615F414AF726F6F831CC5A0E2BA6A9 /* Pods-TweetNaclSwift_Tests-acknowledgements.plist */,
+				F535D2E31B601C9A885D7A57697F065B /* Pods-TweetNaclSwift_Tests-dummy.m */,
+				06EFC33B367BF5FBF34A2E78494E8A82 /* Pods-TweetNaclSwift_Tests-Info.plist */,
+				E8C439149A08678B4E8DDD1873E031B7 /* Pods-TweetNaclSwift_Tests-umbrella.h */,
+				5F8BBBBDC41FCFF385CCDB1F2E0D9BD5 /* Pods-TweetNaclSwift_Tests.debug.xcconfig */,
+				FD4C29AE759751A112273F1F83B2021A /* Pods-TweetNaclSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-TweetNaclSwift_Tests";
+			path = "Target Support Files/Pods-TweetNaclSwift_Tests";
+			sourceTree = "<group>";
+		};
+		29236D3178CD8AAC3C36C81DBA3CBB24 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64FE26B708296F25828225CCFB16AFF9 /* TweetNaclSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64FE26B708296F25828225CCFB16AFF9 /* TweetNaclSwift */ = {
+			isa = PBXGroup;
+			children = (
+				26CED9FEE5F71F3EBDE47DD749A8D0BE /* Constants.swift */,
+				C7937BB2F063A61879542E9AB47D59B9 /* TweetNaclSwift.swift */,
+				0CFD10263F880CDEA1FDCBF7B2E04F29 /* TweetNaclWrapper.h */,
+				B15EECC5BC986D23E7B9A7F454F81039 /* TweetNaclWrapper.m */,
+				EE368E4D4DB8041E6D1EE3632F26A3F7 /* C */,
+				EC6AB15CCA46083A91D23495CEF594A5 /* Pod */,
+				6FBF63FB219AE7DEBA66B0F2083314CA /* Support Files */,
+			);
+			name = TweetNaclSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6FBF63FB219AE7DEBA66B0F2083314CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4687E6ACB4D1B955D29B225683BBFA44 /* TweetNaclSwift.modulemap */,
+				18D113FFB4779CB7CDBCDD9C606A3CB0 /* TweetNaclSwift-dummy.m */,
+				BB3AE9EDBAC7F6A63EC58C52CB163AA7 /* TweetNaclSwift-Info.plist */,
+				72A6ADB63C4CE766A2816A6428EF18E1 /* TweetNaclSwift-prefix.pch */,
+				F681786B4A4A8608F13B5A9DA82155C4 /* TweetNaclSwift-umbrella.h */,
+				59167F79EA0C0F5C7C293DABB83272EE /* TweetNaclSwift.debug.xcconfig */,
+				6B0B0EB223D1AB38751C9ECC8BC18A6A /* TweetNaclSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TweetNaclSwift";
+			sourceTree = "<group>";
+		};
+		8C09D5EB25B29A949FD1E6D3C46A56AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB82595CFC6472707CB259AB6308F9F2 /* Pods-TweetNaclSwift_Example */,
+				36B604DB3D5439967BCCD33136E9B0F4 /* Pods-TweetNaclSwift_Tests */,
+				B3C6C7E7D211E0340D667CD6AAC8E531 /* TweetNaclSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6463D7F1F62D2D76D9BF90CE3A9BF25 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF460C4E73752A0AA17936EE7826F3F6 /* Pods-TweetNaclSwift_Example */,
+				18B0F94F667BB42D60A54DCDB909C761 /* Pods-TweetNaclSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				29236D3178CD8AAC3C36C81DBA3CBB24 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8C09D5EB25B29A949FD1E6D3C46A56AE /* Products */,
+				A6463D7F1F62D2D76D9BF90CE3A9BF25 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF460C4E73752A0AA17936EE7826F3F6 /* Pods-TweetNaclSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9ABB0FC7272981326C0BA503E76F3DC1 /* Pods-TweetNaclSwift_Example.modulemap */,
+				282E967FDED7C6E3652132673C2324A5 /* Pods-TweetNaclSwift_Example-acknowledgements.markdown */,
+				0BC12703BA5E1822B2101F782D72261F /* Pods-TweetNaclSwift_Example-acknowledgements.plist */,
+				5A690F18B46B0C17BA661EB7C4DA492A /* Pods-TweetNaclSwift_Example-dummy.m */,
+				4B335B915FA474307DCEBDCB2FD017D3 /* Pods-TweetNaclSwift_Example-frameworks.sh */,
+				BB7ACA82F1C61375392DF64903AA4D12 /* Pods-TweetNaclSwift_Example-Info.plist */,
+				771C48E75534A37B0A18F381204D19CD /* Pods-TweetNaclSwift_Example-umbrella.h */,
+				AEAF633C610D53379024902EF48D9676 /* Pods-TweetNaclSwift_Example.debug.xcconfig */,
+				B917BD2D35B69128F009293AEAC38D1E /* Pods-TweetNaclSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-TweetNaclSwift_Example";
+			path = "Target Support Files/Pods-TweetNaclSwift_Example";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC6AB15CCA46083A91D23495CEF594A5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A0F1AEC7DE452C9995D68439B378425A /* LICENSE */,
+				8726168E293675193C1D3C2FBD7733AC /* README.md */,
+				5D47C482B0D0804F057DE30D27692E73 /* TweetNaclSwift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EE368E4D4DB8041E6D1EE3632F26A3F7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				34F8BD266F218CB4F471C75E7B6EC90F /* ctweetnacl.c */,
+				855C9D6287EC4BD596F946E107D3E518 /* ctweetnacl.h */,
+			);
+			name = C;
+			path = TweetNaclSwift/Classes/C;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CF54E0C1E7050F824F0E73844480E60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FE8F16FDAE4821E9BD6DEA57546441 /* Pods-TweetNaclSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479132D8A69C5E33A285BE2D1BCCA3C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05199C16F13922050DCE70D6A39C228 /* Pods-TweetNaclSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF694DEBBC43A53002A6943D71DFAFA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5261430C97039DC8386CB2D814324EFF /* ctweetnacl.h in Headers */,
+				7AFE34DB829F4FC6E0F6DC4F07CDD890 /* TweetNaclSwift-umbrella.h in Headers */,
+				F00B8F3A7EEEF0C40D96E534D1007E09 /* TweetNaclWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F94B1D2C304DEB17C05D05923B208E4 /* TweetNaclSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA629E766FC4F997F740D1BA5BBE5AA2 /* Build configuration list for PBXNativeTarget "TweetNaclSwift" */;
+			buildPhases = (
+				BF694DEBBC43A53002A6943D71DFAFA7 /* Headers */,
+				8A1E8AAC4166DA47D7DBE9206300F179 /* Sources */,
+				F915B27787319A3BDA746F29DD5B28EF /* Frameworks */,
+				2D65684E7689F392E946E77C944EE6BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweetNaclSwift;
+			productName = TweetNaclSwift;
+			productReference = B3C6C7E7D211E0340D667CD6AAC8E531 /* TweetNaclSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		547E8A03CF629888022AA4A750344274 /* Pods-TweetNaclSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354321A563F28362C3C766D0C2D1CE00 /* Build configuration list for PBXNativeTarget "Pods-TweetNaclSwift_Tests" */;
+			buildPhases = (
+				479132D8A69C5E33A285BE2D1BCCA3C5 /* Headers */,
+				2B8AB9A1214B0E2F1CB77D3668963442 /* Sources */,
+				A3A58390278E6166B8C1F2155E2DF8CD /* Frameworks */,
+				D577FE5D3E42D7246C715484D0DC6CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA6DCC778DCC70560054D26D19576688 /* PBXTargetDependency */,
+			);
+			name = "Pods-TweetNaclSwift_Tests";
+			productName = Pods_TweetNaclSwift_Tests;
+			productReference = 36B604DB3D5439967BCCD33136E9B0F4 /* Pods-TweetNaclSwift_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF0E68FD195607D8AB4FEEE4BE56388B /* Pods-TweetNaclSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577CFE4E203FBC2F6D296EB184F8E159 /* Build configuration list for PBXNativeTarget "Pods-TweetNaclSwift_Example" */;
+			buildPhases = (
+				3CF54E0C1E7050F824F0E73844480E60 /* Headers */,
+				A4EF0F05593A5AFA3D312FF81958680B /* Sources */,
+				345A78446211F716628225AED234B151 /* Frameworks */,
+				D5380114D598938C41B55A9569056B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21331B569EE19B476A2C701F6AC482E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-TweetNaclSwift_Example";
+			productName = Pods_TweetNaclSwift_Example;
+			productReference = CB82595CFC6472707CB259AB6308F9F2 /* Pods-TweetNaclSwift_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8C09D5EB25B29A949FD1E6D3C46A56AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF0E68FD195607D8AB4FEEE4BE56388B /* Pods-TweetNaclSwift_Example */,
+				547E8A03CF629888022AA4A750344274 /* Pods-TweetNaclSwift_Tests */,
+				3F94B1D2C304DEB17C05D05923B208E4 /* TweetNaclSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D65684E7689F392E946E77C944EE6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5380114D598938C41B55A9569056B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D577FE5D3E42D7246C715484D0DC6CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8AB9A1214B0E2F1CB77D3668963442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5148B44D0384258BAAE19F7756DDDC /* Pods-TweetNaclSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1E8AAC4166DA47D7DBE9206300F179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B6EC6493AEC60A43DFC4C670440041 /* Constants.swift in Sources */,
+				53C920B624FD360D0BEC0D68528C2D60 /* ctweetnacl.c in Sources */,
+				D8C41AC0BF16FF471A54C4FAB338842D /* TweetNaclSwift.swift in Sources */,
+				CE8CDF59ECD0744BE8A3EE45B61DB870 /* TweetNaclSwift-dummy.m in Sources */,
+				FD656432E8E2DBFF8B44E11F0FDDD8F4 /* TweetNaclWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EF0F05593A5AFA3D312FF81958680B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA7692800079E03048771534F5F5D95 /* Pods-TweetNaclSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21331B569EE19B476A2C701F6AC482E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TweetNaclSwift;
+			target = 3F94B1D2C304DEB17C05D05923B208E4 /* TweetNaclSwift */;
+			targetProxy = 825698C43535ADC5914A4B38CFC2FE1C /* PBXContainerItemProxy */;
+		};
+		DA6DCC778DCC70560054D26D19576688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TweetNaclSwift_Example";
+			target = EF0E68FD195607D8AB4FEEE4BE56388B /* Pods-TweetNaclSwift_Example */;
+			targetProxy = 1ECE40C8A3ED4EE6D4F3CA93CE3E3A8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1ACB5969DFDF216629E69943B9117D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD4C29AE759751A112273F1F83B2021A /* Pods-TweetNaclSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TweetNaclSwift_Tests/Pods-TweetNaclSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TweetNaclSwift_Tests/Pods-TweetNaclSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		319F4DABF9A5B9C90BB5A4725178FB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAF633C610D53379024902EF48D9676 /* Pods-TweetNaclSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TweetNaclSwift_Example/Pods-TweetNaclSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TweetNaclSwift_Example/Pods-TweetNaclSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7E90EB5B14352234FB2089A1033B56E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0B0EB223D1AB38751C9ECC8BC18A6A /* TweetNaclSwift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TweetNaclSwift/TweetNaclSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TweetNaclSwift/TweetNaclSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TweetNaclSwift/TweetNaclSwift.modulemap";
+				PRODUCT_MODULE_NAME = TweetNaclSwift;
+				PRODUCT_NAME = TweetNaclSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDDB2730F5C1390215DA571E3568DD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8BBBBDC41FCFF385CCDB1F2E0D9BD5 /* Pods-TweetNaclSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TweetNaclSwift_Tests/Pods-TweetNaclSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TweetNaclSwift_Tests/Pods-TweetNaclSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAAE519BEF183B955FF3D0D8B7BEE0A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59167F79EA0C0F5C7C293DABB83272EE /* TweetNaclSwift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TweetNaclSwift/TweetNaclSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TweetNaclSwift/TweetNaclSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TweetNaclSwift/TweetNaclSwift.modulemap";
+				PRODUCT_MODULE_NAME = TweetNaclSwift;
+				PRODUCT_NAME = TweetNaclSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D95B58435EF2FA69438E0C41DFCBC12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B917BD2D35B69128F009293AEAC38D1E /* Pods-TweetNaclSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TweetNaclSwift_Example/Pods-TweetNaclSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TweetNaclSwift_Example/Pods-TweetNaclSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		354321A563F28362C3C766D0C2D1CE00 /* Build configuration list for PBXNativeTarget "Pods-TweetNaclSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDB2730F5C1390215DA571E3568DD2A /* Debug */,
+				1ACB5969DFDF216629E69943B9117D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577CFE4E203FBC2F6D296EB184F8E159 /* Build configuration list for PBXNativeTarget "Pods-TweetNaclSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319F4DABF9A5B9C90BB5A4725178FB2E /* Debug */,
+				D95B58435EF2FA69438E0C41DFCBC12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA629E766FC4F997F740D1BA5BBE5AA2 /* Build configuration list for PBXNativeTarget "TweetNaclSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAE519BEF183B955FF3D0D8B7BEE0A5 /* Debug */,
+				7E90EB5B14352234FB2089A1033B56E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

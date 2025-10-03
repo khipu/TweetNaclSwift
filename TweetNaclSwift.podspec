@@ -9,34 +9,24 @@
 Pod::Spec.new do |s|
   s.name             = 'TweetNaclSwift'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TweetNaclSwift.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'Swift wrapper for TweetNaCl cryptographic library.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TweetNaclSwift provides a Swift interface to the TweetNaCl cryptographic library.
+It wraps the C implementation with a clean Swift API for iOS applications.
                        DESC
 
-  s.homepage         = 'https://github.com/Emilio Davis/TweetNaclSwift'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/github/TweetNaclSwift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Emilio Davis' => 'emilio.davis@khipu.com' }
-  s.source           = { :git => 'https://github.com/Emilio Davis/TweetNaclSwift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/khipu/TweetNaclSwift.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0'
 
-  s.source_files = 'TweetNaclSwift/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'TweetNaclSwift' => ['TweetNaclSwift/Assets/*.png']
-  # }
+  # Source files (Swift, Objective-C and C)
+  s.source_files = 'TweetNaclSwift/Classes/**/*.{swift,h,m,c}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # Public headers
+  s.public_header_files = 'TweetNaclSwift/Classes/TweetNaclWrapper.h'
+
 end
